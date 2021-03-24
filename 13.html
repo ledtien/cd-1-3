@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            
+        }
+        .box {
+            background-color: black;
+            border: 1px solid orange;
+            width: 100px;
+            height: 100px;
+                                
+        }
+        .container {
+            display: flex;
+        
+            
+            
+          }
+        .box1 {
+           
+           position: relative;
+           
+       }
+        .tail {
+       
+          position: absolute;
+          top: 50px;
+          left: 50px;
+      }
+        .box2 {
+            background-color: grey;
+        }
+        .box4 {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">div1
+            <div class="box box2 tail">div2
+                <div class="box box3 tail">div3
+                    <div class="box box4 tail">div4
+                        <div class="box box5 tail">div5</div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>  
+       
+      
+    </div>   
+</body>
+</html>
